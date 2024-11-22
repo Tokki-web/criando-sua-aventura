@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da vila fantasma</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Numa noite ensolarada, dentro de um livro de madeira do colégio, eu descobri uma chave de papel e uma carta de metal que contava sobre uma vila fantasmas populosa, que tinha belos tesouros sem utilidade, o dono do livro deixou algumas pistas sobre a onde eu n deveria ir e eu decidi segui-las!</p>
+            <button class="btn-proximo" data-proximo="1">posto ipiranga</button>
+            <button class="btn-proximo" data-proximo="2">bar do birá</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada no posto ipiranga, subindo o Pico do jaragua ao amanhecer da noite para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No bar do birá, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a vila fantasma você deve procurar a próxima pista em um dos pontos turísticos do local. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar o estadio da neoquimica arena</button>
+            <button class="btn-proximo" data-proximo="6">Explorar o estadio do santos</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo do Pico do jaragua, você encontra uma antiga inscrição apontando que a próxima pista está localizada no estadio do flamengo</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o estadio do flamengo</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>No estadio, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima pista está no estadio do flamengo.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o estadio do flamengo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando o estadio, você encontra uma caverna escondida, mas ela leva a um beco sem saída..</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar a neoquimica</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No estadio do flamengo, a busca pela vila fantasma populosa se intensifica. Você se depara com um rio bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta a neoquimica, você finalmente encontra o mapa antigo. Agora, para o estadio do flamego!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o estadio do flamengo</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma estrada de terra feita de pedra escondida com inscrições antigas que revelam a entrada da vila fantasma.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a vila fantasma</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa seca. Apesar de belas vistas tampadas, não há sinais da vila fantasma aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da vila fantasma, você descobre tesouros inimagináveis e inuteis e decide se dedicar a estudar e preservar este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a estrada de terra feita de pedra e as inscrições que levam à vila fantasma.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a vila fantasma</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
